@@ -1,0 +1,14 @@
+<CatStudios>
+    <!-- Information's -->
+    <info author='Bzr#7718' />
+
+    <!-- Dependencie's -->
+    <oop>true</oop>
+
+    <!-- Shared-Side -->
+    <script src='configuration.lua' cache='false' type='shared' />
+    <script src='src/utils/Shared.lua' cache='false' type='shared' />
+
+    <!-- Core's -->
+    <script src='src/core/Server.lua' type='server' />
+</CatStudios>
