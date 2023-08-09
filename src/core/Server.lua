@@ -13,7 +13,7 @@ class 'Spawn Manager' {
         self.hospitals = settings.Positions;
 
         -- getHospital's
-        local wakeUp = SpawnManager:getHospital(source);
+        local wakeUp = self:getHospital(source);
         if not wakeUp then
             return false;
         end
